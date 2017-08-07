@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <!--商品  -->
+           <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_marginTop="2sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/gwcname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="套餐肥牛鸡排双拼"
+                    android:layout_marginLeft="10sp"
+                    android:textSize="15dp" />
+
+                <TextView
+                       android:id="@+id/gwcshuliang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="x1"
+                    android:textSize="15dp" />
+
+                <TextView
+                       android:id="@+id/gwczongjia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="￥ 15"
+                    android:textSize="15dp" />
+            </LinearLayout>

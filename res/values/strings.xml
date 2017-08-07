@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodSell</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_land">Land</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_choose">Choose</string>
+    <string name="title_activity_waimai">Waimai</string>
+    <string name="title_activity_dingdan">Dingdan</string>
+    <string name="title_activity_wode">Wode</string>
+    <string name="title_activity_shop">Shop</string>
+    <string name="title_activity_qrdingdan">QRdingdan</string>
+    <string name="title_activity_dingdanxq">Dingdanxq</string>
+    <string name="title_activity_sousuo">Sousuo</string>
+
+</resources>

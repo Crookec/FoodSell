@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"  
+     android:background="#F8F8FF" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="143dp"
+    android:background="#4169E1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/adress" />
+
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="浙江农林大学东湖校区"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/sousuotext"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext"
+        android:gravity="center_horizontal|center_vertical" 
+        android:hint="O. 搜索商家"
+         android:editable="false">
+
+        
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/t0" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/t1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/t2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/t3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/t4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/t5" />
+    </LinearLayout>
+</LinearLayout>
+
+     <View   
+    android:layout_height="1dp"
+     android:layout_width="fill_parent"
+       android:background="@android:color/background_dark"
+        android:layout_marginTop="2dp"  /> 
+ 
+   
+    
+     <!-- 店列表 -->
+           <TextView
+             android:id="@+id/ceshi"
+             android:background="#4169E1"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:textSize="10dp" 
+             android:text="￥ 15"
+               android:layout_marginTop="25dp"/>
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+      <LinearLayout 
+      android:id="@+id/dianpu"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"  
+     android:layout_marginTop="10dp" >  
+     
+         <ImageView
+             android:id="@+id/dpimg"
+             android:src="@drawable/d_sx"
+            android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="50dp"
+              android:layout_marginTop="5dp" />  
+             
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="76dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_weight="3.75"
+                   android:orientation="vertical" >
+  
+       <TextView
+             android:id="@+id/dianming"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:text="沙县小吃"
+             android:textStyle="bold"
+             android:textSize="20dp" />  
+               <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:orientation="horizontal"  
+     android:layout_marginTop="5dp" >  
+       <ImageView
+            android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/star_1" />  
+               <ImageView
+            android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/star_1" />  
+               <ImageView
+            android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/star_1" />  
+               <ImageView
+            android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/star_1" />  
+               <ImageView
+            android:layout_width="10dp"
+             android:layout_height="10dp"
+             android:src="@drawable/star_1" />  
+             <TextView
+             android:id="@+id/pingfen"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="5"
+             android:textColor="#FFD700"
+             android:textSize="10dp"
+             android:layout_marginLeft="3dp" />
+              <TextView
+             android:id="@+id/yueshou"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="10dp" 
+             android:text="500单"
+               android:layout_marginLeft="10dp"/>
+               </LinearLayout>
+            <TextView
+             android:id="@+id/qisongjia"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="10dp" 
+             android:text="￥ 15"
+               android:layout_marginTop="5dp"/>
+     </LinearLayout>
+      
+     </LinearLayout>
+
+</LinearLayout>
+
+
+
+</LinearLayout>

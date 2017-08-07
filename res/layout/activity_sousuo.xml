@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F5F5F5"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#4169E1"
+    >
+    
+    <LinearLayout 
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <ImageView
+	        android:layout_width="0dp"
+	        android:layout_height="30dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_weight="0.46"
+	        android:src="@drawable/sousuo3"  />
+	    
+	    <EditText 
+	        android:id="@+id/main_edit"
+	        android:layout_width="0dp"
+	        android:layout_height="30dp"
+	        android:layout_weight="3"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginRight="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:background="#ffffff"
+	        android:hint="搜索店家"
+	        android:paddingLeft="5dp"/>
+	    
+	    <Button 
+	        android:id="@+id/main_search"
+	        android:layout_width="0dp"
+	        android:layout_height="30dp"
+	        android:background="#3CB371"
+	        android:layout_weight="1"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginRight="5dp"
+	        android:text="搜索"
+	        android:textColor="#F8F8FF"
+	        />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5sp">
+        <TextView 
+            android:text="猜你喜欢："
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:textSize="14sp"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_height="23dp"
+            android:textSize="11sp"
+            android:text="沙县小吃"
+            android:layout_marginRight="5dp"
+            />
+         <TextView 
+            android:layout_width="0dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_height="23dp"
+            android:textSize="11sp"
+            android:text="方缘骨头饭"
+            android:layout_marginRight="5dp"
+            />
+         <TextView 
+            android:layout_width="0dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_height="23dp"
+            android:textSize="11sp"
+            android:text="百卡滋"
+            android:layout_marginRight="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+<!-- 搜索列表 -->
+
+<ListView
+    android:id="@+id/list_sousuo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+</ListView>
+
+</LinearLayout>

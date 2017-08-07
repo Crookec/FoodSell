@@ -1,0 +1,234 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4169E1"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/jmp_Choose"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="14sp"
+            android:layout_marginLeft="4sp"
+            android:text="订单详情"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+     
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:background="#F8F8FF"
+        android:orientation="horizontal" >
+       <ImageView
+           android:id="@+id/diantu"
+               android:layout_width="18dp"
+               android:layout_height="18dp"
+                    android:layout_gravity="center_vertical"
+              android:layout_marginLeft="10sp"
+               android:src="@drawable/d_sx" />
+        <TextView
+              android:id="@+id/dianming"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical"
+                 android:layout_marginLeft="4sp"
+               android:text="沙县小吃"
+               android:textStyle="bold"
+               android:textSize="18dp" />
+  </LinearLayout>
+  
+   <ListView
+      android:id="@+id/list_caidan"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    ></ListView>  
+  
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:background="#F8F8FF"
+           android:layout_marginTop="4sp"
+        android:orientation="horizontal" >
+         <TextView
+                
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="配送费"
+                    android:layout_marginLeft="10sp"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="￥0"
+                    android:textSize="15dp" />
+  </LinearLayout>
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:background="#F8F8FF"
+           android:layout_marginTop="4sp"
+        android:orientation="horizontal" >
+         <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="10sp"
+                   />
+                <TextView
+                       android:id="@+id/ddxxzongjia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="实付    ￥15"
+                    android:textSize="15dp" />
+  </LinearLayout>
+  
+  
+         <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="配送信息"
+                    android:textSize="15dp"
+                android:background="#F8F8FF"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp" />
+             
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10sp"
+             android:layout_marginTop="4sp"
+             android:background="#F8F8FF"
+             android:text="送达时间： 尽快送达 | 预计30分钟"
+             android:textSize="12dp" />
+  
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:background="#F8F8FF"
+           android:layout_marginTop="4sp"
+        android:orientation="horizontal" >
+         <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="3sp"
+                    android:text="收货地址："
+                    android:textSize="12dp"
+                   />
+           <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:background="#F8F8FF"
+           android:layout_marginTop="4sp"
+        android:orientation="vertical" >
+                <TextView
+                       android:id="@+id/ddxxshr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="叶彤彤"
+                    android:textSize="12dp" />
+                 <TextView
+                       android:id="@+id/ddxxshdz"
+                     android:layout_marginTop="3sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="浙江农林大学C2号325"
+                    android:textSize="12dp" />
+           </LinearLayout>
+  </LinearLayout>
+
+         <TextView
+                   android:background="#F8F8FF"
+                   android:layout_marginTop="4sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="配送方式： 商家配送"
+                    android:textSize="12dp"
+                   />
+            
+  
+      <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="订单信息"
+                android:textSize="15dp"
+                android:background="#F8F8FF"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp" />
+       <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10sp"
+             android:layout_marginTop="4sp"
+             android:background="#F8F8FF"
+             android:text="支付方式： 在线支付"
+             android:textSize="12dp" />
+       
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:background="#F8F8FF"
+           android:layout_marginTop="4sp"
+        android:orientation="horizontal" >
+         <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="下单时间："
+                    android:textSize="12dp"
+                   />
+                <TextView
+                       android:id="@+id/ddxxshijian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2016-12-15 14:00"
+                    android:textSize="12dp" />
+  </LinearLayout>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:background="#F8F8FF"
+           android:layout_marginTop="4sp"
+        android:orientation="horizontal" >
+         <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="备 注："
+                    android:textSize="12dp"
+                   />
+                <TextView
+                       android:id="@+id/ddxxbeizhu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不要辣"
+                    android:textSize="12dp" />
+  </LinearLayout>
+
+</LinearLayout>
